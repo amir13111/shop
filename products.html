@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initialه</title>
+.0"/>
+<title>محصولات | -انتشارات دژبرار -</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav class="navbar">  
+      <a href="index.html" class="logo"><span class="logo-icon"><img src="foter/dez.jpg" alt="" class="dez"></span><span> انتشارات دژبرار</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">🏠 خانه</a></li>
+        <li><a href="products.html" class="nav-link active">📖 محصولات</a></li>
+        <li><a href="about.html" class="nav-link">ℹ️ درباره ما</a></li>
+        <li><a href="contact.html" class="nav-link">📞 تماس با ما</a></li>
+       
+      </ul>
+      <div class="nav-actions">
+        <a href="products.html" class="btn-primary">🛒 سبد خرید</a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="منو">☰</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>گاه کتاب</h1>
+    <p>مجموعه‌ای از بهترین و پرفروش‌ترین کتاب‌های ایرانی و خارجی با کیفیت بالا و قیمت مناسب</p>
+  </div>
+</section>
+
+<section class="catalog-page">
+  <div class="container">
+    <div class="search-filter-box">
+      <div class="search-input-group">
+        <input type="text" id="searchInput" placeholder="🔍 جستجوی نام کتاب، نویسنده یا دسته‌بندی..."/>
+      </div>
+      <div class="filter-pills">
+        <button class="filter-btn active" data-category="همه">همه</button>
+        <button class="filter-btn" data-category="علوم اسلامی">علوم اسلامی</button>
+        <button class="filter-btn" data-category="معارف">معارف</button>
+        <button class="filter-btn" data-category="فلسفه">فلسفه</button>
+        <button class="filter-btn" data-category="حقوق">حقوق</button>
+        <button class="filter-btn" data-category="کودکان و نوجوانان">کودکان , نوجوانان </button>
+        <button class="filter-btn" data-category="منطق">منطق</button>
+        <button class="filter-btn" data-category="ادبیات عرب">ادبیات عرب</button>
+        <button class="filter-btn" data-category="ادبیات فارسی">ادبیات فارسی</button>
+        <button class="filter-btn" data-category="اخلاق اسلامی">اخلاف اسلامی</button>
+        <button class="filter-btn" data-category="سیاسی">سیاسی</button>
+        <button class="filter-btn" data-category="علوم تربیتی">علوم تربیتی</button>
+        <button class="filter-btn" data-category="افتصاد">افتصاد</button>
+        <button class="filter-btn" data-category="علوم حدییث">علوم حدییث</button>
+        <button class="filter-btn" data-category="خاطرات">خاطرات</button>
+        <button class="filter-btn" data-category=" زندگی نامه">زندگی نامه</button>
+        <button class="filter-btn" data-category="قرآن">قرآن</button>
+        <button class="filter-btn" data-category="کلام اسلامی">کلام اسلامی</button>
+        <button class="filter-btn" data-category="فقه">فقه</button>
+
+
+      </div>
+    </div>
+
+    <p style="margin-bottom:20px;color:var(--text-muted);">📊 نمایش <strong id="resultsCount">13</strong> کتاب</p>
+    <div class="books-grid" id="booksGrid"></div>
+    <div id="emptyState" style="display:none;text-align:center;padding:60px 0;color:var(--text-muted);">
+      <h3 style="font-size:2rem;margin-bottom:10px;">😕</h3>
+      <p>متأسفانه کتابی مطابق جستجوی شما پیدا نشد.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><span class="logo-icon">📚</span> نشر دزبرار</div>
+        <p class="footer-desc">نشر دژبارار از سال 1400 با هدف ترویج فرهنگ کتاب‌خوانی و دسترسی آسان علاقه‌مندان به کتاب‌های اورجینال و باکیفیت، در خدمت شماست. ما باور داریم هر کتاب، دری به دنیایی تازه است.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" title="اینستاگرام">📷</a>
+          <a href="#" class="social-btn" title="تلگرام">✈️</a>
+          <a href="#" class="social-btn" title="واتس‌اپ">💬</a>
+          <a href="#" class="social-btn" title="ایمیل">✉️</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-title">دسترسی سریع</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">صفحه اصلی</a></li>
+          <li><a href="products.html">محصولات</a></li>
+          <li><a href="about.html">درباره ما</a></li>
+          <li><a href="contact.html">تماس با ما</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">دسته‌بندی‌ها</h4>
+        <ul class="footer-links">
+          <li><a href="products.html"> سیاسی</a></li>
+          <li><a href="products.html"> کلام اسلام</a></li>
+          <li><a href="products.html"> اقتادی</a></li>
+          <li><a href="products.html"> تاریخی</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">عضویت در خبرنامه</h4>
+        <p class="footer-desc" style="font-size:.9rem;">جدیدترین کتاب‌ها و تخفیف‌های ویژه را اول از همه دریافت کنید.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="ایمیل شما..." required/>
+          <button type="submit">عضویت</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© ۱۴۰۳ انتشارات دژبرار  — تمامی حقوق محفوظ است.</p>
+      <p> طراح سایت امیر محمد عزیزی</p>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="bookModal">
+  <div class="modal-content">
+    <button class="modal-close-btn" id="modalCloseBtn">✕</button>
+    <div class="modal-body" id="modalBodyContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
